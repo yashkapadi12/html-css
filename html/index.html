@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html css responsive</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>TOURS</li>
+            <li><a href="#"></a>EXPLORE</li>
+            <li><a href="#"></a>ABOUT</li>
+            <li class="ctn"><a href="#"></a>Contant</li>
+        </ul>
+        <img src="/img/Hamburger_icon.svg.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the ColourFul World</h2>
+            <div class="line">
+                <h1>A wonderful Gift</h1>
+                <a href="#" class="ctn"> LEARN MORE</a>
+            </div>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="/img/premium_photo-1661698763470-55da05629e50.jpeg" alt="" class="imga">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis tempora vel quas fuga
+                    assumenda. Quo eveniet possimus incidunt atque enim illo. Eum distinctio porro illum, deserunt
+                    commodi excepturi libero.</p>
+                <a href="#" class="ctn"> LEARN MORE</a>
+            </div>
+            <div class="col">
+                <img src="/img/premium_photo-1661698763470-55da05629e50.jpeg" alt="" class="imga">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis tempora vel quas fuga
+                    assumenda. Quo eveniet possimus incidunt atque enim illo. Eum distinctio porro illum, deserunt
+                    commodi excepturi libero.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore the world</h1>
+            <div class="line"></div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quod dolore quia ut ipsa iusto ex
+                dolorem voluptatibus nulla autem numquam pariatur, voluptate excepturi optio cupiditate saepe? Itaque,
+                eligendi veniam?</p>
+            <a href="" class="ctn">LEARN MORE</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming TOurs and Direction</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro totam nihil consequatur numquam
+                    libero. Eos, assumenda fugiat. Mollitia ipsa, itaque unde aperiam deleniti facilis quisquam
+                    provident. Facilis tempore quisquam recusandae.</p>
+                <a href="" class="ctn">LEARN MORE</a>
+
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="/img/pexels-mikebirdy-116675.jpg" alt="">
+                    <img src="/img/pexels-mikebirdy-116675.jpg" alt="">
+                    <img src="/img/pexels-mikebirdy-116675.jpg" alt="">
+                    <img src="/img/pexels-mikebirdy-116675.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Legal Stuff
+
+            Privacy Policy
+
+            Security
+
+            Website Accessibility
+
+            Manage Cookies</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
